@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cake Ordering Form</title>
+  <link rel="stylesheet" href="cake.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cake Ordering Form</h1>
+    <form id="cake-form">
+      <label for="cake-type">Cake Type:</label>
+      <select id="cake-type">
+        <option value="birthday">Round</option>
+        <option value="wedding">Square</option>
+        <option value="anniversary">Heart</option>
+      </select>
+
+      <label for="cake-size">Cake Size:</label><br>
+      <label for="small">0.5 kg</label>
+      <input type="radio" id="small" name="size" value="small" checked>
+      <label for="medium">1 kg</label>
+      <input type="radio" id="medium" name="size" value="medium">
+      
+
+      <label for="flavor">Flavor:</label>
+      <input type="text" id="flavor" placeholder="Enter cake flavor">
+
+      <label for="toppings">Message:</label>
+      <input type="text" id="toppings" placeholder="Enter toppings">
+
+      <h2>Delivery Details</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <label for="roll">Roll no:</label>
+      <textarea id="roll" placeholder="Enter your roll no."></textarea>
+
+      <label for="dept">Department:</label>
+      <textarea id="dept" placeholder="Enter your department"></textarea>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" placeholder="Enter your phone number">
+
+      <label for="dod">Date of Delivery:</label>
+      <input type="date" id="dod" placeholder="Enter your date of delivery">
+
+      <label for="tod">Time of Delivery:</label>
+      <input type="time" id="dod" placeholder="Enter your time of Delivery">
+
+      <button type="submit">Submit Order</button>
+    </form>
+  </div>
+  <script src="cake.js"></script>
+</body>
+</html>

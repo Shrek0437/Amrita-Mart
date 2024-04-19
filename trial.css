@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("cartbg.png");
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(210, 172, 38);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .item-card {
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .item-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .item-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .item-details {
+    padding: 20px;
+  }
+  
+  .item-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .item-price {
+    font-size: 18px;
+  }
+  
+  .item-action {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .item-quantity {
+    width: 70px;
+    padding: 5px;
+  }
+  
+  .item-add {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .item-add:hover {
+    background-color: #45a049;
+  }
+
+  button{
+    background-color: #fff;
+    padding: 10px 40px;
+    border-radius: 0.3rem;
+    font-weight: 500;
+    transition: .5s ease;
+    animation: slideLeft 1s ease forwards;
+}
+.btn:hover{
+    background: #8a6f4d;
+}
+
+h1{
+    text-align: center;
+    font-family: fantasy;
+    color: red;
+    background: #fff;
+    border-radius: 50px;
+}
+  
